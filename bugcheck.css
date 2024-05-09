@@ -1,0 +1,157 @@
+body {
+    background-color: #0000AA;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 90vh;
+    padding: 20px;
+}
+
+#bugcheck {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#text-content {
+    margin-bottom: 20px;
+}
+
+#qrcode-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#qrcode {
+    margin-right: 20px;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#bugcheck-info, #stop-code, #stop-code-info {
+    margin-left: 20px;
+}
+
+#stop-code-info {
+    margin-top: 30px;
+}
+
+#bugcheck-percentage {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-top: -.375em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1em;
+    margin: 0;
+}
+
+@media screen and (max-width: 1600px) {
+    #bugcheck-percentage {
+        font-size: 2.3em;
+    }
+
+    h1 {
+        font-size: 15em;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #bugcheck-percentage {
+        font-size: 2.5em;
+    }
+
+    h1 {
+        font-size: 10em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #bugcheck-percentage {
+        font-size: 2.7em;
+    }
+
+    h1 {
+        font-size: 7em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #bugcheck-percentage {
+        font-size: 3em;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #bugcheck-percentage {
+        font-size: 3.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.6em;
+    }
+}
