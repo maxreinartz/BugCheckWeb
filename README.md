@@ -1,7 +1,7 @@
 # BugCheckWeb
 
 Create bugchecks (bsod) right in your browser!
-Just head over [here](bugcheck.maxreinartz.me) to try it out!
+Just head over [here](http://bugcheck.maxreinartz.me) to try it out!
 
 ## LICENSE
 
