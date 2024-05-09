@@ -28,8 +28,9 @@ body {
     align-items: flex-start;
 }
 
-#qrcode {
-    margin-right: 20px;
+#bugcheck-img {
+    margin-right: 10px;
+    width: 260px;
 }
 
 #info-container {
@@ -46,112 +47,198 @@ body {
 }
 
 #bugcheck-percentage {
-    font-size: 2em;
+    font-size: 32px;
     margin-top: 10px;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 48px;
     margin: 0;
-    margin-top: -.375em;
+    margin-top: -5.75%;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 24px;
     margin: 0;
 }
 
 p {
-    font-size: 1em;
+    font-size: 16px;
     margin: 0;
+}
+
+@media screen and (max-width: 3840px) {
+    #bugcheck-percentage {
+        font-size: 64px;
+    }
+
+    #bugcheck-img {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 480px;
+    }
+
+    h2 {
+        font-size: 96px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    #bugcheck-percentage {
+        font-size: 48px;
+    }
+
+    #bugcheck-img {
+        width: 320px;
+    }
+
+    h1 {
+        font-size: 360px;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    #bugcheck-percentage {
+        font-size: 40px;
+    }
+
+    #bugcheck-img {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 300px;
+    }
+
+    h2 {
+        font-size: 72px;
+    }
+
+    p {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 1600px) {
     #bugcheck-percentage {
-        font-size: 2.3em;
+        font-size: 36.8px;
+    }
+
+    #bugcheck-img {
+        width: 260px;
     }
 
     h1 {
-        font-size: 15em;
+        font-size: 240px;
     }
 
     h2 {
-        font-size: 4em;
+        font-size: 64px;
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 22.4px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     #bugcheck-percentage {
-        font-size: 2.5em;
+        font-size: 29.6px;
+    }
+
+    #bugcheck-img {
+        width: 200px;
     }
 
     h1 {
-        font-size: 10em;
+        font-size: 180px;
     }
 
     h2 {
-        font-size: 3em;
+        font-size: 48px;
     }
 
     p {
-        font-size: 1em;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 800px) {
     #bugcheck-percentage {
-        font-size: 2.7em;
+        font-size: 22.4px;
+    }
+
+    #bugcheck-img {
+        width: 160px;
     }
 
     h1 {
-        font-size: 7em;
+        font-size: 120px;
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 32px;
     }
 
     p {
-        font-size: 0.8em;
+        font-size: 14.4px;
     }
 }
 
 @media screen and (max-width: 600px) {
     #bugcheck-percentage {
-        font-size: 3em;
+        font-size: 16px;
+    }
+
+    #bugcheck-img {
+        width: 120px;
     }
 
     h1 {
-        font-size: 5em;
+        font-size: 80px;
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 24px;
     }
 
     p {
-        font-size: 0.7em;
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width: 400px) {
     #bugcheck-percentage {
-        font-size: 3.5em;
+        font-size: 12px;
+    }
+
+    #bugcheck-img {
+        width: 100px;
     }
 
     h1 {
-        font-size: 3em;
+        font-size: 60px;
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 20px;
     }
 
     p {
-        font-size: 0.6em;
+        font-size: 10px;
     }
 }

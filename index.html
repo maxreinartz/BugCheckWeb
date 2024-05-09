@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>BugCheck</title>
-    <link rel="stylesheet" type="text/css" href="bugcheck.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="bugcheck.css" />
+  </head>
+  <body>
     <div id="bugcheck">
-        <div id="text-content">
-            <h1 id="bugcheck-face">:(</h1>
-            <h2 id="bugcheck-title">Your PC ran into a problem and needs to restart.</h2>
-            <p id="bugcheck-message">We're just collecting some error info, and then we'll restart for you.</p>
-            <p id="bugcheck-percentage">0% complete</p>
+      <div id="text-content">
+        <h1 id="bugcheck-face">:(</h1>
+        <h2 id="bugcheck-title">
+          Your PC ran into a problem and needs to restart.
+        </h2>
+        <p id="bugcheck-message">
+          We're just collecting some error info, and then we'll restart for you.
+        </p>
+        <p id="bugcheck-percentage">0% complete</p>
+      </div>
+      <div id="qrcode-container">
+        <img id="bugcheck-img"></img>
+        <div id="info-container">
+          <p id="bugcheck-info">
+            For more information about this issue and possible fixes, visit
+            https://www.windows.com/stopcode
+          </p>
+          <p id="stop-code-info">
+            If you call a support person, give them this info:
+          </p>
+          <p id="stop-code">0x00000000</p>
         </div>
-        <div id="qrcode-container">
-            <div id="qrcode"></div>
-            <div id="info-container">
-                <p id="bugcheck-info">For more information about this issue and possible fixes, visit https://www.windows.com/stopcode</p>
-                <p id="stop-code-info">If you call a support person, give them this info:</p>
-                <p id="stop-code">0x00000000</p> 
-            </div>
-        </div>
+      </div>
     </div>
-    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
     <script src="bugcheck.js"></script>
-</body>
+  </body>
 </html>
