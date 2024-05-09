@@ -59,10 +59,10 @@ window.onload = function () {
     document.body.style.backgroundColor = "#0000AA";
   }
 
-    if (textColorParam) {
-        textColorParam = "#" + textColorParam;
-        document.body.style.color = textColorParam;
-    } else {
-        document.body.style.color = "#FFFFFF";
-    }
+  if (textColorParam) {
+    textColorParam = "#" + textColorParam;
+    document.body.style.color = textColorParam;
+  } else {
+    document.body.style.color = "#FFFFFF";
+  }
 };
