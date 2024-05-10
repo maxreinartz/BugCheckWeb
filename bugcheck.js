@@ -12,6 +12,8 @@ window.onload = function () {
   var bgColorParam = urlParams.get("bgColor");
   var textColorParam = urlParams.get("textColor");
 
+  var imgLinkParam = urlParams.get("imgLink");
+
   if (faceParam) {
     document.getElementById("bugcheck-face").innerText = faceParam;
   }
@@ -69,5 +71,9 @@ window.onload = function () {
     document.body.style.color = textColorParam;
   } else {
     document.body.style.color = "#FFFFFF";
+  }
+
+  if (imgLinkParam) {
+    document.getElementById("bugcheck-img-link").href = imgLinkParam;
   }
 };
