@@ -1,250 +1,252 @@
 :root {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #0000AA;
-    color: #FFFFFF;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
+  background-color: #0000aa;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 #bugcheck {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
 }
 
 #text-content {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #qrcode-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 #bugcheck-img {
-    margin-right: 10px;
-    width: 260px;
+  margin-right: 10px;
+  width: 260px;
 }
 
 #info-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-#bugcheck-info, #stop-code, #stop-code-info {
-    margin-left: 20px;
+#bugcheck-info,
+#stop-code,
+#stop-code-info {
+  margin-left: 20px;
 }
 
 #stop-code-info {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #bugcheck-percentage {
-    font-size: 32px;
-    margin-top: 10px;
+  font-size: 32px;
+  margin-top: 10px;
 }
 
 h1 {
-    font-size: 48px;
-    margin: 0;
-    margin-top: -5.75%;
+  font-size: 48px;
+  margin: 0;
+  margin-top: -5.75%;
 }
 
 h2 {
-    font-size: 24px;
-    margin: 0;
+  font-size: 24px;
+  margin: 0;
 }
 
 p {
-    font-size: 16px;
-    margin: 0;
+  font-size: 16px;
+  margin: 0;
 }
 
 @media screen and (max-width: 3840px) {
-    #bugcheck-percentage {
-        font-size: 64px;
-    }
+  #bugcheck-percentage {
+    font-size: 64px;
+  }
 
-    #bugcheck-img {
-        width: 400px;
-    }
+  #bugcheck-img {
+    width: 400px;
+  }
 
-    h1 {
-        font-size: 480px;
-    }
+  h1 {
+    font-size: 480px;
+  }
 
-    h2 {
-        font-size: 96px;
-    }
+  h2 {
+    font-size: 96px;
+  }
 
-    p {
-        font-size: 32px;
-    }
+  p {
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 2560px) {
-    #bugcheck-percentage {
-        font-size: 48px;
-    }
+  #bugcheck-percentage {
+    font-size: 48px;
+  }
 
-    #bugcheck-img {
-        width: 320px;
-    }
+  #bugcheck-img {
+    width: 320px;
+  }
 
-    h1 {
-        font-size: 360px;
-    }
+  h1 {
+    font-size: 360px;
+  }
 
-    h2 {
-        font-size: 80px;
-    }
+  h2 {
+    font-size: 80px;
+  }
 
-    p {
-        font-size: 28px;
-    }
+  p {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 1920px) {
-    #bugcheck-percentage {
-        font-size: 40px;
-    }
+  #bugcheck-percentage {
+    font-size: 40px;
+  }
 
-    #bugcheck-img {
-        width: 300px;
-    }
+  #bugcheck-img {
+    width: 300px;
+  }
 
-    h1 {
-        font-size: 300px;
-    }
+  h1 {
+    font-size: 300px;
+  }
 
-    h2 {
-        font-size: 72px;
-    }
+  h2 {
+    font-size: 72px;
+  }
 
-    p {
-        font-size: 24px;
-    }
+  p {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 1600px) {
-    #bugcheck-percentage {
-        font-size: 36.8px;
-    }
+  #bugcheck-percentage {
+    font-size: 36.8px;
+  }
 
-    #bugcheck-img {
-        width: 260px;
-    }
+  #bugcheck-img {
+    width: 260px;
+  }
 
-    h1 {
-        font-size: 240px;
-    }
+  h1 {
+    font-size: 240px;
+  }
 
-    h2 {
-        font-size: 64px;
-    }
+  h2 {
+    font-size: 64px;
+  }
 
-    p {
-        font-size: 22.4px;
-    }
+  p {
+    font-size: 22.4px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    #bugcheck-percentage {
-        font-size: 29.6px;
-    }
+  #bugcheck-percentage {
+    font-size: 29.6px;
+  }
 
-    #bugcheck-img {
-        width: 200px;
-    }
+  #bugcheck-img {
+    width: 200px;
+  }
 
-    h1 {
-        font-size: 180px;
-    }
+  h1 {
+    font-size: 180px;
+  }
 
-    h2 {
-        font-size: 48px;
-    }
+  h2 {
+    font-size: 48px;
+  }
 
-    p {
-        font-size: 16px;
-    }
+  p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    #bugcheck-percentage {
-        font-size: 22.4px;
-    }
+  #bugcheck-percentage {
+    font-size: 22.4px;
+  }
 
-    #bugcheck-img {
-        width: 160px;
-    }
+  #bugcheck-img {
+    width: 160px;
+  }
 
-    h1 {
-        font-size: 120px;
-    }
+  h1 {
+    font-size: 120px;
+  }
 
-    h2 {
-        font-size: 32px;
-    }
+  h2 {
+    font-size: 32px;
+  }
 
-    p {
-        font-size: 14.4px;
-    }
+  p {
+    font-size: 14.4px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    #bugcheck-percentage {
-        font-size: 16px;
-    }
+  #bugcheck-percentage {
+    font-size: 16px;
+  }
 
-    #bugcheck-img {
-        width: 120px;
-    }
+  #bugcheck-img {
+    width: 120px;
+  }
 
-    h1 {
-        font-size: 80px;
-    }
+  h1 {
+    font-size: 80px;
+  }
 
-    h2 {
-        font-size: 24px;
-    }
+  h2 {
+    font-size: 24px;
+  }
 
-    p {
-        font-size: 12px;
-    }
+  p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    #bugcheck-percentage {
-        font-size: 12px;
-    }
+  #bugcheck-percentage {
+    font-size: 12px;
+  }
 
-    #bugcheck-img {
-        width: 100px;
-    }
+  #bugcheck-img {
+    width: 100px;
+  }
 
-    h1 {
-        font-size: 60px;
-    }
+  h1 {
+    font-size: 60px;
+  }
 
-    h2 {
-        font-size: 20px;
-    }
+  h2 {
+    font-size: 20px;
+  }
 
-    p {
-        font-size: 10px;
-    }
+  p {
+    font-size: 10px;
+  }
 }
