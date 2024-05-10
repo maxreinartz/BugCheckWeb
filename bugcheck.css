@@ -1,6 +1,7 @@
-:root {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,7 +15,6 @@ body {
   justify-content: flex-start;
   height: 100vh;
   padding: 20px;
-  box-sizing: border-box;
 }
 
 #bugcheck {
@@ -59,10 +59,13 @@ body {
   margin-top: 10px;
 }
 
+#bugcheck-face {
+  margin-top: -5.75%;
+}
+
 h1 {
   font-size: 48px;
   margin: 0;
-  margin-top: -5.75%;
 }
 
 h2 {

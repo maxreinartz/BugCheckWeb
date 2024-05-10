@@ -5,6 +5,7 @@ window.onload = function () {
   var messageParam = urlParams.get("message");
   var codeParam = urlParams.get("code");
   var infoParam = urlParams.get("info");
+  var stopInfoParam = urlParams.get("stopInfo");
   var imgParam = urlParams.get("img");
   var percentageParam = urlParams.get("percentage");
 
@@ -35,6 +36,10 @@ window.onload = function () {
 
   if (infoParam) {
     document.getElementById("bugcheck-info").innerText = infoParam;
+  }
+
+  if (stopInfoParam) {
+    document.getElementById("stop-code-info").innerText = stopInfoParam;
   }
 
   var percentage;
