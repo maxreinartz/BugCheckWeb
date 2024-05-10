@@ -19,7 +19,7 @@ Just head over [here](http://bugcheck.maxreinartz.me) to try it out!
 | textColor   | Lets the user specify the text color                                                                             |
 
 Example:  
-- [http://bugcheck.maxreinartz.me?face=:)&title=Your+PC+is+perfectly+fine!&message=Just+waiting+a+few+seconds+for+you+to+read+this.&code=7689&info=Check+out+my+GitHub+@Creeper76&stopInfo=Very+Cool+Number:&img=http://maxreinartz.me/assets/profile.jpg&bgColor=330033&textColor=ffccff](http://bugcheck.maxreinartz.me?face=:)&title=Your+PC+is+perfectly+fine!&message=Just+waiting+a+few+seconds+for+you+to+read+this.&code=7689&info=Check+out+my+GitHub+@Creeper76&stopInfo=Very+Cool+Number:&img=http://maxreinartz.me/assets/profile.jpg&bgColor=330033&textColor=ffccff)
+- [http://bugcheck.maxreinartz.me?face=:)&title=Your+PC+is+perfectly+fine!&message=Just+waiting+a+few+seconds+for+you+to+read+this.&code=7689&info=Check+out+my+GitHub+@Creeper76&stopInfo=Very+Cool+Number:&img=http://maxreinartz.me/assets/profile.jpg&bgColor=330033&textColor=ffccff](http://bugcheck.maxreinartz.me?face=:%29&title=Your+PC+is+perfectly+fine!&message=Just+waiting+a+few+seconds+for+you+to+read+this.&code=7689&info=Check+out+my+GitHub+@Creeper76&stopInfo=Very+Cool+Number:&img=http://maxreinartz.me/assets/profile.jpg&bgColor=330033&textColor=ffccff)
 
 ## LICENSE
 
