@@ -20,7 +20,7 @@ Just head over [here](https://bugcheck.maxreinartz.dev) to try it out!
 | imgLink     | Lets the user specify the image link (when clicking it)                                                          |
 
 Example:  
-- [https://bugcheck.maxreinartz.dev?face=:)&title=Your+PC+is+perfectly+fine!&message=Just+waiting+a+few+seconds+for+you+to+read+this.&code=7689&info=Check+out+my+GitHub+@Creeper76&stopInfo=Very+Cool+Number:&img=https://maxreinartz.dev/assets/profile.jpg&bgColor=330033&textColor=ffccff&imgLink=https://github.com/Creeper76/](https://bugcheck.maxreinartz.dev?face=:%29&title=Your+PC+is+perfectly+fine!&message=Just+waiting+a+few+seconds+for+you+to+read+this.&code=7689&info=Check+out+my+GitHub+@Creeper76&stopInfo=Very+Cool+Number:&img=https://maxreinartz.dev/assets/profile.jpg&bgColor=330033&textColor=ffccff&imgLink=https://github.com/Creeper76/)
+- [https://bugcheck.maxreinartz.dev?face=:)&title=Your+PC+is+perfectly+fine!&message=Just+waiting+a+few+seconds+for+you+to+read+this.&code=0x7689&info=Check+out+my+GitHub+@maxreinartz&stopInfo=Very+Cool+Number:&img=https://maxreinartz.dev/assets/img/profile.jpg&percentage=76&bgColor=330033&textColor=ffccff&imgLink=https://github.com/maxreinartz/](https://bugcheck.maxreinartz.dev?face=:%29&title=Your+PC+is+perfectly+fine!&message=Just+waiting+a+few+seconds+for+you+to+read+this.&code=0x7689&info=Check+out+my+GitHub+@maxreinartz&stopInfo=Very+Cool+Number:&img=https://maxreinartz.dev/assets/img/profile.jpg&percentage=76&bgColor=330033&textColor=ffccff&imgLink=https://github.com/maxreinartz/)
 
 ## LICENSE
 
